@@ -53,7 +53,7 @@ p{
     text-align: justify;
 }
 section{
-
+    padding-bottom: 2rem;
 }
 .box-geral{
     height: 100%;
@@ -78,6 +78,7 @@ section{
 }
 article{
     background-color: #c2c2c2;
+    padding-top: 2rem;
 }
 article .box-img{
     background-color: #c2c2c2;
