@@ -41,11 +41,12 @@ header {
     color: white;
     width: 60rem;
 }
-header h1{
+h1{
     font-size: 3rem;
 }
 h2{
    font-size:  2rem;
+   color: var(--cor-contraste);
 }
 p{
     text-indent: 2.5rem;
@@ -53,7 +54,7 @@ p{
     text-align: justify;
 }
 section{
-    padding-bottom: 2rem;
+    padding: 2rem 0;
 }
 .box-geral{
     height: 100%;
@@ -77,12 +78,51 @@ section{
     background: url('img/pexels-tobiasbjorkli-2119706.jpg');
 }
 article{
-    background-color: #c2c2c2;
-    padding-top: 2rem;
+    background-color: #29292b;
+    padding: 2rem 0;
 }
 article .box-img{
     background-color: #c2c2c2;
+    background:  linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.418)), url('img/erica.jpeg') no-repeat center center;
+    background-size: cover;
+    
 }
 article .box{
     margin-left: 1.3rem;
+}
+article h3{
+    color: var(--cor-principal);
+}
+article p{
+    color: white;
+}
+
+section#musica{
+    height: 100vh;
+    box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.5);
+    background:linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.418)),
+     url('img/background-music.jpeg') ;
+    background-size: contain;
+}
+.box-geral-music{
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+}
+.text-music{
+    width: 70vw;
+}
+.img-music{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+    background: url('img/disco.jpeg') center center;
+    transition: 5s;
+}
+.img-music:hover{
+    transform: rotate(360deg);
+}
+#musica p{
+    color: white;
 }
