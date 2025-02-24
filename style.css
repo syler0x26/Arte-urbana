@@ -25,7 +25,7 @@ body{
 }
 header {
     background: 
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    linear-gradient(60deg, rgba(24, 24, 24, 0.705), rgba(0, 0, 0, 0)),
         url('img/pexels-perfect-lens-8521557.jpg') no-repeat;
     background-size: cover;
     width: 100vw;
