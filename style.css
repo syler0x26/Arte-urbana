@@ -1,11 +1,13 @@
 @charset "UTF-8";
 /*importar as fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
 @font-face {
     font-family:'grafite';
     src: url(fonte/Grafite.otf) format(opentype);
 }
 :root{
+    --font: "DynaPuff", serif;
     --font-principal:"Poppins", serif;
     --font-secundaria: "Lobster", serif;
     --font-grafite: 'grafite', verdana;
@@ -34,7 +36,7 @@ header {
 
     background: 
     linear-gradient(60deg, rgba(24, 24, 24, 0.705), rgba(0, 0, 0, 0)),
-        url('img/pexels-perfect-lens-8521557.jpg') no-repeat;
+        url('img/pexels-felicity-tai-7951946.jpg') no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -42,15 +44,18 @@ header {
 }
 .box-header{
     display: flex;
-    width: 100vw;
+    width: 100%;
 }
 .texto{
-    padding: 4rem;
+    padding: 2rem;
     color: white;
     width: 60rem;
 }
 h1{
-    font-size: 3rem;
+    color: aqua;
+    text-shadow: 2px 2px 5px black;
+    font-family: var(--font);
+    font-size: 6rem;
 }
 h2{
    font-size:  2rem;
@@ -80,8 +85,8 @@ section{
 }
 .box-img{
     background-color: #c2c2c2;
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     border-radius: 3rem;
     background: url('img/pexels-tobiasbjorkli-2119706.jpg');
 }
