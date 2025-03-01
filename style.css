@@ -18,124 +18,18 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
     box-sizing: border-box;
 }
-html{
-    /*scroll-snap-type: y mandatory;
-    transition: .4s;*/
-}
-body{
-    overflow-x: hidden;
-    font-family: var(--font-principal);
-    transition: .4s;
-}
-/*#movi{
-    scroll-snap-align: start;
-}*/
-header {
-
-    background: 
-    linear-gradient(60deg, rgba(24, 24, 24, 0.705), rgba(0, 0, 0, 0)),
-        url('img/pexels-felicity-tai-7951946.jpg') no-repeat;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-}
-.box-header{
-    display: flex;
-    width: 100%;
-}
-.texto{
-    padding: 2rem;
-    color: white;
-    width: 60rem;
-}
-h1{
-    color: aqua;
-    text-shadow: 2px 2px 5px black;
-    font-family: var(--font);
-    font-size: 6rem;
-}
-h2{
-   font-size:  2rem;
-   color: var(--cor-contraste);
-}
-p{
-    text-indent: 2.5rem;
-    font-size: 1.3rem;
-    text-align: justify;
+header{
+    background-color: var(--cor-principal);
 }
 section{
-    padding: 2rem 0;
-}
-.box-geral{
-    height: 100%;
-    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    flex-grow: s;
-    flex: 1 1 auto;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
-.box{
-    width: 40rem;
-    margin-right: 1.3rem;
-}
-.box-img{
-    background-color: #c2c2c2;
-    width: 350px;
-    height: 350px;
-    border-radius: 3rem;
-    background: url('img/pexels-tobiasbjorkli-2119706.jpg');
-}
-article{
-    background-color: #29292b;
-    padding: 2rem 0;
-}
-article .box-img{
-    background-color: #c2c2c2;
-    background:  linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.418)), url('img/erica.jpeg') no-repeat center center;
-    background-size: cover;
-    
-}
-article .box{
-    margin-left: 1.3rem;
-}
-article h3{
-    color: var(--cor-principal);
-}
-article p{
+.nvbar a{
+    font-size: 1.8rem;
     color: white;
-}
-
-section#musica{
-    height: 100%;
-    box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.5);
-    background:linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.418)),
-     url('img/background-music.jpeg') ;
-    background-size: contain;
-}
-.box-geral-music{
-    display: flex;
-    flex: 1 1 auto;
-    flex-wrap: wrap;
-}
-.text-music{
-    width: 70%;
-}
-.img-music{
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-    background-color: gray;
-    background: url('img/disco.jpeg') center center;
-    transition: 5s;
-}
-.img-music:hover{
-    transform: rotate(360deg);
-}
-#musica p{
-    color: white;
+    margin: 1rem;
 }
