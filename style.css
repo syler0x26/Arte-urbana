@@ -21,10 +21,20 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-header{
-    background-color: var(--cor-principal);
-}
 section{
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+header{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(0.1rem);
+    border-bottom: 0.1rem solid gray;
+}
+header section{
     display: flex;
     justify-content: space-between;
 }
@@ -32,4 +42,17 @@ section{
     font-size: 1.8rem;
     color: white;
     margin: 1rem;
+}
+article{
+    height: 100vh;
+    background: black url('img/pexels-felicity-tai-7951946.jpg') center center;
+    background-size: cover;
+}
+.container-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-home{
+
 }
